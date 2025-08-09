@@ -41,7 +41,7 @@ jobs:
                   go build -v -tags windivert ./...
 
             - name: Upload Windows Build Artifact
-              uses: actions/upload-artifact@v3
+              uses: actions/upload-artifact@v4
               with:
                   name: phantomsocks-windows
                   path: phantomsocks.exe
